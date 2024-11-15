@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<style>
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        align-items: center;
+    }
+    .header{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-color: violet;
+        align-items: center;
+        
+       
+       
+        
+    }
+    b{
+        font-size: 20px;
+    }
+    
+    ul{
+        
+        display: flex;
+        list-style: none;
+        padding-top: 13px;
+        
+        
+        
+       
+    }
+    li i:hover{
+        background-color:rgb(235, 66, 235);;
+        border-radius: 50px;
+       
+    }
+    ol{
+        display: flex;
+        list-style: none;
+       padding-left: 35%;
+       padding-top: 13px;
+    }
+    li{
+       padding-left: 50px;
+      
+       
+
+      
+       
+       
+    }
+    .first-btn{
+        font-size: 16px;
+        border-radius: 7px;
+        padding: 5px;
+        background-color: violet;
+        margin-left: 9%;
+        margin-top: 13px;
+        border: none;
+        background-color: purple;
+        color: white;
+        padding: 10px;
+       
+    }
+.first-btn:active{
+    background-color: aliceblue;
+}
+.first-btn:hover{
+    background-color: violet;
+    
+}
+    .third-button{
+        margin-left: 50px;
+        margin-top: 13px;
+    }
+
+
+    .one{
+        width: 600px;
+        height: 200px;
+        border-top: 5px solid violet;
+        border-left: 5px solid blue;
+        border-right: 1px solid rgb(241, 226, 226);
+        border-bottom:1px solid rgb(241, 226, 226); 
+        border-radius: 10px;
+        margin-left:29%;
+        margin-top: 20px;
+
+    }
+    .two{
+        width: 600px;
+        height: 200px;
+        border-left:5px solid blue;
+        border-right: 1px solid rgb(241, 226, 226);
+        border-bottom:1px solid rgb(241, 226, 226); 
+        border-top:1px solid rgb(241, 226, 226); 
+        border-radius: 10px;
+        margin-left:29%;
+        margin-top: 20px;
+        padding-left: 20px;
+
+        
+    }
+    .in-two{
+        width: 400px;
+        height: 80px;
+        border-bottom: 1px dotted black;
+        
+    }
+    .input-text{
+        border: none;
+        outline: none;
+    }
+    .btn{
+        margin-left: 40%;
+        margin-top: 30px;
+        color: violet;
+        
+    }
+    .input-feild{
+        font-size: 20px;
+        padding: 10px;
+        width: 100px;
+       background-color:rgb(48, 48, 215);
+       border-radius: 15px;
+    }
+    .input-feild:active{
+        background-color: cadetblue;
+
+    }
+    i{
+        font-size: 30px;
+    }
+    @media screen and (max-width: 700px) {
+    /* Adjust header layout */
+    .header {
+        width: 100%;
+        padding: 10px;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    /* Make the navigation icons smaller and stack them vertically */
+    .header ul {
+      
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .header ol {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .header i {
+        font-size: 24px;
+    }
+
+    /* Make the form input fields and buttons full width */
+    .one, .two {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        padding-left: 0;
+        margin: 20px;
+    }
+
+    .input-text {
+        width: 100%;
+    }
+
+    .input-feild {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    /* Stack the form sections vertically with more spacing */
+    .two {
+        margin-top: 20px;
+    }
+
+    .in-two {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust the Submit button to be centered */
+    .btn {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Adjust the font size of titles */
+    .one h1, .two h2 {
+        font-size: 18px;
+    }
+
+    /* Make the header items smaller */
+    .header li {
+        font-size: 16px;
+    }
+}
+
+    
+   
+   
+</style>
+<body>
+    <nav class="header">
+
+        <ul>
+            <li><i class='bx bx-file'></i></li>
+            <li><b>RegistrationForm</b></li>
+            <li><i class='bx bxs-folder'  ></i></li>
+           <li><i class='bx bxs-star'  ></i></li>
+
+        </ul>
+    
+    
+        <ol>
+            <li><i class='bx bx-palette' style='color:rgba(0,0,0,0.41)' ></i></li>
+            <li><i class='bx bx-low-vision' style='color:rgba(0,0,0,0.41)' ></i></li>
+            <li><i class='bx bx-cog' style='color:rgba(0,0,0,0.41)' ></i></li>
+
+        </ol>
+        <input type="button" value="Send" class="first-btn">
+        
+       
+        
+
+
+    </nav>
+    
+    <div class="one"><div><label for=""><h1>Registration form</h1></h1><hr>
+        <p>Form description</p><hr></div>
+    </div>
+    <div class="two"><div class="in-two"><label for=""><h2>First Name*</h2>
+        </label><input type="text" placeholder="Short answer text" class="input-text">
+        </div>
+
+    </div>
+    <div class="two"><div class="in-two"><label for=""><h2>Last Name*</h2>
+    </label><input type="text" placeholder="Short answer text" class="input-text">
+    </div>
+
+</div>
+<div class="two"><div class="in-two"><label for=""><h2>Email*</h2>
+</label><input type="email" placeholder="Short answer text" class="input-text">
+</div>
+
+</div>
+<div class="two"><div class="in-two"><label for=""><h2>Password*</h2>
+</label><input type="password" placeholder="Short answer text" class="input-text">
+</div>
+
+</div>
+<div class="two"><div class="in-two" style="border: none;"><label for=""><h2>Course*</h2>
+</label>
+<select >
+    <option>Full stack developer</option>
+    <option>Data Analyst</option>
+    <option>Ai</option>
+    <option>data science</option>
+</select>
+</div>
+</div>
+<div class="btn"><a href="Registernext.html"><input type="button" value="Submit" class="input-feild"></a>
+</div>
+
+    
+    
+    
+
+    
+</body>
+    
+</html>
